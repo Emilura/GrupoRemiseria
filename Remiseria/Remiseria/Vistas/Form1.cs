@@ -28,5 +28,10 @@ namespace Remiseria
             MessageBox.Show(baseDatos.State.ToString());
             baseDatos.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Funciones.logs("prueba","esta es una  prueba de logs" );
+        }
     }
 }

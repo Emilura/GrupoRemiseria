@@ -10,10 +10,10 @@ namespace Remiseria.Datos
     class Conexion
     {
 
-        private readonly string bd = "bdremiseria";
-        private readonly string servidor = "127.0.0";
+        private readonly string bd = "dbremiseria";
+        private readonly string servidor = "127.0.0.1";
         private readonly string puerto = "3306";
-        private readonly string usuario = "";
+        private readonly string usuario = "root";
         private readonly string password = "";
         private string cadenaConexion;
         private MySqlConnection conn = null;

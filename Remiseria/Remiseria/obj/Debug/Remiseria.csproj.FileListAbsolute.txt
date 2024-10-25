@@ -3,3 +3,8 @@ C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.
 C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.Properties.Resources.resources
 C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.csproj.GenerateResource.cache
 C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.exe.config
+C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.exe
+C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.pdb
+C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.exe
+C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.pdb
