@@ -21,11 +21,11 @@ namespace Remiseria
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MySqlConnection baseDatos = new MySqlConnection;
+            MySqlConnection baseDatos = new MySqlConnection();
 
-            baseDatos = new Conexion().crearConexion;
+            baseDatos = (new Conexion()).crearConexion();
             baseDatos.Open();
-            MessageBox.Show(baseDatos.State.ToString);
+            MessageBox.Show(baseDatos.State.ToString());
             baseDatos.Close();
         }
     }

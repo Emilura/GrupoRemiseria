@@ -16,20 +16,20 @@ namespace Remiseria.Datos
         private readonly string usuario = "";
         private readonly string password = "";
         private string cadenaConexion;
-        private MySqlConnection cmd = null;
+        private MySqlConnection conn = null;
 
     
 
     public Conexion()
         {
-            cadenaConexion = "server=" + servidor + "Database=" + bd + "Uid=" + usuario + "Pwd=" + password + ";";
+            cadenaConexion= "server="+servidor+"Database="+bd+"Uid="+usuario+"Pwd="+password+";";
 
         }
         public MySqlConnection crearConexion()
         {
             try
             {
-                object conn = null;
+                
                 if (conn == null)
                 {
                     conn = new MySqlConnection(cadenaConexion);
@@ -37,7 +37,7 @@ namespace Remiseria.Datos
                 }
 
             }
-            catch (Exception)
+            catch (Exception error)
             {
 
                 throw;
