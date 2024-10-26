@@ -54,7 +54,10 @@
   <ItemGroup>
     <Compile Include="Datos\Conexion.cs" />
     <Compile Include="Datos\Funciones.cs" />
+    <Compile Include="Modelos\Chofer.cs" />
     <Compile Include="Modelos\Cliente.cs" />
+    <Compile Include="Modelos\Servicio.cs" />
+    <Compile Include="Modelos\Vehiculo.cs" />
     <Compile Include="Vistas\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
