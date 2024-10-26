@@ -8,7 +8,6 @@ namespace Remiseria.Modelos
 {
     class Cliente
     {
-        private int idCliente;
         private string apellido;
         private string nombre;
         private string telefono;
@@ -16,12 +15,7 @@ namespace Remiseria.Modelos
         private string email;
         private bool activo;
 
-        public int IdCliente
-        {
-            get { return idCliente; }
-            set { idCliente = value; }
-
-        }
+        public int IdCliente { get; set; }
 
         public string Apellido
         {
@@ -56,13 +50,21 @@ namespace Remiseria.Modelos
         }
 
 
-        public Cliente() { }
-        public Cliente(int idCliente, string apellido, string nombre, string telefono, string direccion, string email, bool activo);
+        public Cliente() { }// es para generar constructor
+        public Cliente(string apellido, string nombre, string telefono, string direccion, string email, bool activo);
         {
+           Apellido=apellido;
+            nombre =nombre ;
+            telefono=telefono;
+            direccion= direccion;
+            email=email;
+            activo=activo;
+        
+           }
 
-        this.idCliente = idCliente;
-
+       
+             
          }
 
     }
-}
+
