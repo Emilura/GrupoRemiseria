@@ -53,7 +53,18 @@ namespace Remiseria.Modelos
             get => activo;
             set => activo = value;
         }
-
+         public Vehiculo() { }
+        public Vehiculo (int idVehiculo, string patente,string marca,string modelo,string año,string estado,bool activo )
+        {
+            this.idVehiculo = idVehiculo;
+            this.patente = patente;
+            this.marca = marca;
+            this.modelo = modelo;
+            this.año = año;
+            this.estado = estado;
+            this.activo = activo;
+            
+        }
     }
 
 }

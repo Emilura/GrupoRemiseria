@@ -22,7 +22,7 @@ namespace Remiseria.Datos
 
     public Conexion()
         {
-            cadenaConexion= "server="+servidor+"Database="+bd+"Uid="+usuario+"Pwd="+password+";";
+            cadenaConexion= "server="+servidor+";Database="+bd+";Uid="+usuario+";Pwd="+password+";";
 
         }
         public MySqlConnection crearConexion()

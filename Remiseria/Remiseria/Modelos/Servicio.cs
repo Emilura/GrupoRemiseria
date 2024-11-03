@@ -60,7 +60,7 @@ namespace Remiseria.Modelos
             get => horaFin;
             set => horaFin = value;
 
-        } 
+        }
         private string Origen
         {
             get => origen;
@@ -90,7 +90,31 @@ namespace Remiseria.Modelos
             set => activo = value;
 
         }
-        
+        public Servicio() { }
+        public Servicio(int id_Servicio, int id_Cliente, int id_Vehiculo, int id_chofer, DateTime fecha, DateTime horaInicio, DateTime horaFin,
+            string origen, string destino, float precio, string estado, bool activo)
+     
+        {
+            this.Id_servicio  = id_Servicio;
+            this.id_Cliente = id_Cliente;
+            this.id_Vehiculo = id_Vehiculo;
+            this.id_chofer = id_chofer;
+            this.fecha = fecha;
+            this.horaInicio = horaInicio;
+            this.Horafin = horaFin;
+            this.origen = origen;
+            this.destino=destino;
+            this.precio = precio;
+            this.estado = estado;
+            this.activo = activo;
+
+
+
+            }
+
+
+
+        }
 
     }
-}
+

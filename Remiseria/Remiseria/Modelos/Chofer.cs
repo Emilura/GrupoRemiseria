@@ -40,5 +40,16 @@ namespace Remiseria.Modelos
             get => activo;
             set => activo = value;
         }
+        public Chofer() { }
+        public Chofer (int IdChofer,string apellido,string nombre,string licenciaConducir,bool activo )
+        {
+            this.IdChofer = IdChofer;
+            this.apellido = apellido;
+            this.nombre = nombre;
+            this.licenciaConducir = licenciaConducir;
+            this.activo = activo;
+       
+
+        }
     }
 }
