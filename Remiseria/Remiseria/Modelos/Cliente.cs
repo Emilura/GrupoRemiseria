@@ -50,7 +50,7 @@ namespace Remiseria.Modelos
         }
 
 
-        public Cliente() { }// es para generar constructor
+        public Cliente() { }// es para generar constructor hola 
         public Cliente(string apellido, string nombre, string telefono, string direccion, string email, bool activo)
         {
             this.apellido = apellido;
