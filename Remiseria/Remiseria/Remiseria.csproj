@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Datos\Conexion.cs" />
     <Compile Include="Datos\Funciones.cs" />
+    <Compile Include="Interfaz\IChofer.cs" />
     <Compile Include="Modelos\Chofer.cs" />
     <Compile Include="Modelos\Cliente.cs" />
     <Compile Include="Modelos\Servicio.cs" />
@@ -91,8 +92,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaz\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
