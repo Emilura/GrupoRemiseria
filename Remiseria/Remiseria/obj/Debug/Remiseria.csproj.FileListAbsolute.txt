@@ -8,3 +8,13 @@ C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.
 C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.pdb
 C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.exe
 C:\Users\Usuario\Desktop\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.pdb
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.exe.config
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.exe
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\bin\Debug\Remiseria.pdb
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.csprojAssemblyReference.cache
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.frmPrincipal.resources
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.Properties.Resources.resources
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.csproj.GenerateResource.cache
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.csproj.CoreCompileInputs.cache
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.exe
+D:\A-SISTEMA\Documents\GitHub\GrupoRemiseria\Remiseria\Remiseria\obj\Debug\Remiseria.pdb
