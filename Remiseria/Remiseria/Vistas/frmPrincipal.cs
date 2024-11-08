@@ -33,5 +33,21 @@ namespace Remiseria
         {
             Funciones.logs("prueba","esta es una  prueba de logs" );
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void menuPrincipal_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            //miss click
+        }
+
+        private void menuPrincipal_Click(object sender, EventArgs e)
+        {
+            //no eliminar, se jode todo
+        }
+
     }
 }

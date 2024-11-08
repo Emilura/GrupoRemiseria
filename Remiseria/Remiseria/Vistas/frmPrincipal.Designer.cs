@@ -28,8 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.MenuPrincipal = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -52,6 +56,19 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // MenuPrincipal
+            // 
+            this.MenuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem});
+            this.MenuPrincipal.Name = "MenuPrincipal";
+            this.MenuPrincipal.Size = new System.Drawing.Size(181, 48);
+            // 
+            // archivoToolStripMenuItem
+            // 
+            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -59,8 +76,10 @@
             this.ClientSize = new System.Drawing.Size(929, 518);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.IsMdiContainer = true;
             this.Name = "frmPrincipal";
-            this.Text = "Form1";
+            this.Text = "Principal";
+            this.MenuPrincipal.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -69,6 +88,8 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ContextMenuStrip MenuPrincipal;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
     }
 }
 
